@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap links -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- css link -->
+    <link rel="stylesheet" href="/weather.css">
+    <title>Know its Weather</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+          <li><a href="/index.html" id="country-data-menu">Country Data</a></li>
+          <li><a href="/weather.html" id="weather-data-menu">Weather Data</a></li>
+        </ul>
+      </nav>
+    
+    <div class="wrapper">
+       
+        <div class="card text-center"> 
+            <input type="text" id="city" placeholder="Enter City ...">
+            <button class="btn btn-danger" id="submit">Submit</button>
+            <p id="para"></p>
+        </div>
+        <br><br>
+        <form>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card" id="cards">
+                        <div class="card-body">
+                            <p class="card-text" id="country">City Name</p>
+                            <p><img src="/icons/Weather Icons/clear.svg" id="icon" alt="weather icon">
+                            </p>
+                            <p class="card-text" id="description">Description</p>
+                            <div>
+                                <span class="card-text" id="temp" style="padding-bottom: 6rem;">Temperature: 36
+                                </span>
+                                <span>°C</span>
+                            </div><br>
+                            <div class="col-sm-4">
+                                <p class="card-text" id="feels_like">Feels like</p>
+                            </div>
+                            <div class="col-sm-4">
+                                <p class="card-text" id="humidity">Humidity</p>
+                            </div>
+                            <div class="col-sm-4">
+                                <span class="card-text" id="windSpeed">Wind Speed: </span> <span>m/s</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="/weather.js"></script>
+</body>
+
+</html>

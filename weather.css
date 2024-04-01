@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  background-color: #f0f0f0;
+  padding: 10px 20px; 
+}
+
+nav ul {
+  display: flex; 
+  list-style: none; 
+  margin: 0; 
+  padding: 0; 
+  justify-content: center; 
+}
+
+nav li {
+  margin-right: 20px; 
+  font-size: 16px;
+}
+
+nav a {
+  text-decoration: none; 
+  color: #333; 
+  font-weight: bold; 
+}
+
+nav a:hover {
+  color: #000; 
+}
+body {
+  background-color: #3d64e6;
+}
+
+#city {
+  margin-top: 12rem;
+  margin-left: 7rem;
+  padding: 0.6rem;
+  width: 40%;
+}
+#butt {
+  padding: 1.5rem;
+  margin-top: 3rem;
+  width: 40%;
+}
+
+.row {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.card-body {
+  background-color: #ffff;
+  color: black;
+  padding-bottom: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.7rem;
+  padding-top: 3rem;
+  border-radius: 3%;
+  font-size: 15px;
+  font-weight: 800;
+  text-align: center;
+  width: 95%;
+  margin-left: 1.5rem;
+  height: 270px;
+
+
+
+}
+img{
+  height: 50px;
+  width: 50px;
+  
+  
+}
+#submit{
+  height: 35px;
+  width: 60px;
+}
+

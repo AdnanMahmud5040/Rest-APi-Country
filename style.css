@@ -7,6 +7,35 @@
 body {
   background-color: #3d64e6;
 }
+
+/* NAV BAR */
+nav {
+  background-color: #f0f0f0; /* Set background color */
+  padding: 10px 20px; /* Add padding */
+}
+
+nav ul {
+  display: flex; 
+  list-style: none; 
+  margin: 0; 
+  padding: 0; 
+  justify-content: center; 
+}
+
+nav li {
+  margin-right: 20px; 
+}
+
+nav a {
+  text-decoration: none; 
+  color: #333; 
+  font-weight: bold; 
+}
+
+nav a:hover {
+  color: #000; 
+}
+
 .container {
   background-color: #ffffff;
   width: 80vw;
@@ -32,6 +61,12 @@ body {
   border: none;
   border-radius: 1.5em;
 }
+.search-wrapper button:hover {
+  background-color: transparent; /* Remove background color on hover */
+  border: 2px solid #3d64e6; /* Add border on hover */
+  color: #3d64e6; /* Change text color on hover */
+}
+
 .search-wrapper input {
   font-size: 1em;
   padding: 0 0.62em;
